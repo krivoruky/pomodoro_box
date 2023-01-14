@@ -1,0 +1,69 @@
+.statisticDropdown {
+	position: absolute;
+	left: 915px;
+	top: -5px;
+	list-style: none;
+	z-index: 50;
+}
+
+.statisticDropdown li {
+	cursor: pointer;
+}
+
+.firstItem,
+.statisticDropdown li {
+	height: 55px;
+	width: 370px;
+	background: #F4F4F4;
+}
+
+.firstItem span,
+.statisticDropdown li span {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 17px;
+	color: #333333;
+	left: 15px;
+	top: 20px;
+}
+
+.firstItem span {
+	position: absolute;
+}
+
+.statisticDropdown li span {
+	position: relative;
+}
+
+.button {
+	position: absolute;
+	left: 335px;
+	top: 22px;
+	cursor: pointer;
+	transform: rotate(180deg);
+}
+
+.up {
+	transform: rotate(360deg);
+}
+
+.divider {
+	width: 370px;
+	Height: 1px;
+	background: #DEDEDE;
+	transform: matrix(1, 0, 0, -1, 0, 0);
+}
+
+.open {
+	filter: drop-shadow(0px 10px 63px rgba(0, 0, 0, 0.07));
+}
+
+@media screen and (max-width: 767px) {
+	.statisticDropdown {
+		position: relative;
+		left: 576px;
+		list-style: none;
+		z-index: 50;
+	}
+}

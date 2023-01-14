@@ -1,0 +1,73 @@
+.pomodoroCounter {
+	position: relative;
+	top: 38px;
+	width: 296px;
+	height: 179px;
+	background: #F4F4F4;
+}
+
+.pomodoroCounter img {
+	margin-top: 32px;
+	margin-left: 86px;
+}
+
+.main {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.main svg {
+	margin-top: 32px;
+	margin-left: 86px;
+	width: 81px;
+	height: 81px;
+}
+
+.main span {
+	margin-top: 32px;
+	margin-left: 17px;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 33px;
+	color: #999999;
+}
+
+.footer {
+	position: relative;
+	margin-top: 23px;
+	height: 51px;
+	background: #DC3E22;
+}
+
+.footer span {
+	position: absolute;
+	top: 9px;
+	left: 78px;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 33px;
+	color: #FFFFFF;
+}
+
+@media screen and (max-width: 767px) {
+	.pomodoroCounter {
+		position: relative;
+		top: 25px;
+	}
+
+	.footer {
+		position: relative;
+		margin-top: 23px;
+		height: 42px;
+		background: #DC3E22;
+	}
+
+	.footer span {
+		position: absolute;
+		top: 4px;
+	}
+
+}

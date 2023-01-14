@@ -1,0 +1,67 @@
+.deleteModal {
+	position: absolute;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	padding-top: 25px;
+	width: 350px;
+	height: 175px;
+	background: #FFFFFF;
+	left: -870px;
+	box-shadow: 4px 4px 8px 1000px rgba(34, 60, 80, 0.4);
+}
+
+.modalTitle {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	line-height: 17px;
+	color: #333333;
+}
+
+.modalClose {
+	cursor: pointer;
+	margin-left: 295px;
+	margin-top: -25px;
+}
+
+.deleteButton {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	padding: 15px 50px;
+	width: 162px;
+	height: 55px;
+	background: #DC3E22;
+	margin-top: 25px;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 17px;
+	text-align: center;
+	color: #FFFFFF;
+	flex: none;
+	order: 0;
+	flex-grow: 0;
+}
+
+.modalCancel {
+	margin-top: 10px;
+	cursor: pointer;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 16px;
+	line-height: 17px;
+	color: #333333;
+}
+
+.modalCancel:hover {
+	text-decoration: underline;
+}
+
+@media screen and (max-width: 767px) {
+	.deleteModal {
+		position: fixed;
+		left: 200px;
+	}
+}

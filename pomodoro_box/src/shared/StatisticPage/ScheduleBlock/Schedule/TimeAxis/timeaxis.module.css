@@ -1,0 +1,45 @@
+.timeAxis {
+	margin-top: 26px;
+}
+
+.timeAxis ul {
+	position: absolute;
+	right: 22px;
+	list-style: none;
+}
+
+.timeAxis ul li {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.timeAxis ul li span {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	line-height: 33px;
+	color: #333333;
+	padding-bottom: 51px;
+}
+
+.divider {
+	width: 843px;
+	height: 1px;
+	background: #333333;
+	opacity: 0.2;
+	margin-bottom: 51px;
+	margin-right: 25px;
+}
+
+@media screen and (max-width: 767px) {
+	.timeAxis {
+		position: absolute;
+		width: 1000px;
+		right: 10px;
+	}
+
+	.divider {
+		width: 500px;
+	}
+}
