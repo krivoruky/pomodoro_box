@@ -1,0 +1,51 @@
+.tasksList {
+	display: flex;
+	flex-direction: column;
+	margin-top: 25px;
+	list-style: none;
+}
+
+.tasksList li {
+	position: relative;
+	display: flex;
+	flex-direction: row;
+	padding-top: 19px;
+	padding-bottom: 19px;
+}
+
+.divider {
+	height: 1px;
+	width: 370px;
+	background: #E4E4E4;
+}
+
+.pomodoroCounter {
+	border: 1px solid #C4C4C4;
+	border-radius: 20px;
+	box-sizing: border-box;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 16px;
+	line-height: 17px;
+	color: #333333;
+	padding: 4px 9px 4px 9px;
+}
+
+.taskTitle {
+	padding-top: 5px;
+	padding-left: 10px;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 16px;
+	line-height: 17px;
+	color: #333333;
+}
+
+.timeCount {
+	margin-top: 19px;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 16px;
+	line-height: 17px;
+	color: #999999;
+}

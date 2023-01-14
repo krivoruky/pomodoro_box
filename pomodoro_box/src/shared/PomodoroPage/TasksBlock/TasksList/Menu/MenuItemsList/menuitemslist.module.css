@@ -1,0 +1,36 @@
+.menuItemsList {
+	padding-top: 5px;
+}
+
+.menuItem {
+	display: flex;
+	flex-flow: row nowrap;
+	align-items: center;
+}
+
+.menuItem {
+	padding-left: 15px;
+	cursor: pointer;
+	height: 36px;
+}
+
+.menuItem:hover {
+	background: #F4F4F4;
+}
+
+.menuItem>svg+span,
+.menuItem>a svg+span {
+	margin-left: 9px;
+}
+
+.menuItem span {
+	font-style: normal;
+	font-weight: 300;
+	font-size: 16px;
+	line-height: 17px;
+	color: #999999;
+}
+
+.disabled svg path {
+	fill: #C4C4C4;
+}

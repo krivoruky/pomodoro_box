@@ -1,0 +1,30 @@
+.taskEditForm {
+	padding-top: 5px;
+	padding-left: 10px;
+}
+
+.error {
+	position: absolute;
+	color: #DC3E22;
+	font-size: 13px;
+	top: 50px;
+	left: 20px;
+}
+
+.button {
+	position: relative;
+	width: 100px;
+	height: 25px;
+	left: 18px;
+	top: 0;
+	background: #A8B64F;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	text-align: center;
+	color: #FFFFFF;
+}
+
+.button:hover {
+	background: #899441;
+}

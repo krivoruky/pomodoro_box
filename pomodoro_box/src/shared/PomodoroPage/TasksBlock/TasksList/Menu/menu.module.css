@@ -1,0 +1,28 @@
+.dropdown {
+	position: absolute;
+	width: 165px;
+	height: 156px;
+	background: #FFFFFF;
+	border: 1px solid #C4C4C4;
+	box-sizing: border-box;
+	top: 25px;
+	left: -71px;
+	z-index: 5;
+}
+
+.dropdown::before,
+.dropdown::after {
+	content: '';
+	position: absolute;
+	right: 75px;
+	bottom: 155px;
+	border: 5px solid transparent;
+	border-top: 5px solid #C4C4C4;
+	transform: rotate(-180deg);
+}
+
+.dropdown::after {
+	border-top: 5px solid white;
+	bottom: 154px;
+	transform: rotate(-180deg);
+}

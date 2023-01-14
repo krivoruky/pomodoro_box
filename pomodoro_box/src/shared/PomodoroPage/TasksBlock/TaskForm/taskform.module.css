@@ -1,0 +1,42 @@
+.taskForm {
+	margin-top: 25px;
+}
+
+.input {
+	position: absolute;
+	width: 370px;
+	height: 55px;
+	border: none;
+	background: #F4F4F4;
+}
+
+.input::placeholder {
+	color: #999999;
+}
+
+.input[placeholder] {
+	padding-left: 15px;
+}
+
+.button {
+	width: 173px;
+	height: 55px;
+	margin-top: 75px;
+	background: #A8B64F;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 17px;
+	text-align: center;
+	color: #FFFFFF;
+}
+
+.button:hover {
+	background: #899441;
+}
+
+.error {
+	margin-top: 8px;
+	font-size: 18px;
+	color: #DC3E22;
+}

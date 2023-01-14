@@ -1,7 +1,18 @@
 .header {
+	position: absolute;
 	display: flex;
 	flex-flow: row nowrap;
 	align-items: center;
 	background-color: var(--white);
+	margin-left: auto;
+	margin-top: auto;
+	margin-right: auto;
+	width: 1440px;
 	box-shadow: 0 10px 63px rgba(0, 0, 0, 0.07);
+}
+
+@media screen and (max-width: 767px) {
+	.header {
+		width: 767px;
+	}
 }

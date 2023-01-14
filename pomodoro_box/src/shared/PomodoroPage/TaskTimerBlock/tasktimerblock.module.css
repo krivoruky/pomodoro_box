@@ -1,0 +1,22 @@
+.taskTimerBlock {
+	position: absolute;
+	width: 733px;
+	height: 507px;
+	top: 100px;
+	left: 635px;
+	background: #F4F4F4;
+}
+
+.hidden {
+	display: none;
+}
+
+@media screen and (max-width: 767px) {
+	.taskTimerBlock {
+		position: relative;
+		top: 50px;
+		left: 80px;
+		width: 600px;
+		overflow-x: auto;
+	}
+}
