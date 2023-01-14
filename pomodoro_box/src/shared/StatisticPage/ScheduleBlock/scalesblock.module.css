@@ -1,0 +1,7 @@
+@media screen and (max-width: 767px) {
+	.scalesBlock {
+		position: absolute;
+		top: 500px;
+		left: -333px;
+	}
+}

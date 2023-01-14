@@ -1,0 +1,70 @@
+.dayOfWeekAxis {
+	position: relative;
+	top: 430px;
+	height: 51px;
+	background: #ECECEC;
+}
+
+.dayOfWeekAxis ul {
+	position: relative;
+	top: 11px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	list-style: none;
+}
+
+.dayOfWeekAxis ul li span {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	line-height: 29px;
+	color: #999999;
+	margin-left: 80px;
+	cursor: pointer;
+}
+
+.dayOfWeekAxis ul li span:active {
+	color: #EE735D;
+}
+
+.dayOfWeekAxis .spanActive {
+	color: #DC3E22;
+}
+
+.scale {
+	position: absolute;
+	width: 77px;
+	height: 168px;
+	background: #EA8A79;
+	bottom: 40px;
+	margin-left: 55px;
+	z-index: 50;
+	cursor: pointer;
+}
+
+.scale:active {
+	background: #EE735D;
+}
+
+.scaleActive {
+	background: #DC3E22;
+	;
+}
+
+
+@media screen and (max-width: 767px) {
+	.dayOfWeekAxis {
+		top: 429px;
+	}
+
+	.dayOfWeekAxis ul li span {
+		font-size: 20px;
+		margin-left: 45px;
+	}
+
+	.scale {
+		width: 45px;
+		margin-left: 35px;
+	}
+}

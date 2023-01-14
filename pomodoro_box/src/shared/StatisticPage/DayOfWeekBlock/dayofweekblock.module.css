@@ -1,0 +1,53 @@
+.title {
+	position: relative;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 33px;
+	color: #333333;
+}
+
+.dayOfWeekBlock {
+	display: flex;
+	flex-direction: column;
+}
+
+.weekOfDayCard {
+	margin-top: 40px;
+	display: flex;
+	flex-direction: column;
+	width: 296px;
+	height: 260px;
+	background: #F4F4F4;
+}
+
+.cardTitle {
+	margin-top: 25px;
+	margin-left: 25px;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 33px;
+	color: #333333;
+}
+
+.cardDescription {
+	margin-top: 14px;
+	margin-left: 25px;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 28px;
+}
+
+.cardDescription span {
+	color: #DC3E22;
+	font-weight: bold;
+}
+
+@media screen and (max-width: 767px) {
+	.dayOfWeekBlock {
+		position: relative;
+		height: 230px;
+	}
+}

@@ -1,0 +1,9 @@
+.renewalButton {
+	margin-left: 460px;
+	margin-top: -220px;
+	cursor: pointer;
+}
+
+.renewalButton svg circle:hover {
+	fill: #899441;
+}

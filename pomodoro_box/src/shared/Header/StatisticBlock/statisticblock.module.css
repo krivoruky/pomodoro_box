@@ -1,0 +1,35 @@
+.statisticBlock {
+	position: relative;
+	display: flex;
+	align-items: center;
+	margin-left: 880px;
+	cursor: pointer;
+}
+
+.statisticIcon {
+	padding-right: 7px;
+}
+
+.statisticIcon path:hover {
+	fill: #B7280F;
+}
+
+.statisticText {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 17px;
+	color: #DC3E22;
+}
+
+.statisticText:hover {
+	color: #B7280F;
+}
+
+@media screen and (max-width: 767px) {
+	.statisticBlock {
+		position: absolute;
+		right: 80px;
+		cursor: pointer;
+	}
+}

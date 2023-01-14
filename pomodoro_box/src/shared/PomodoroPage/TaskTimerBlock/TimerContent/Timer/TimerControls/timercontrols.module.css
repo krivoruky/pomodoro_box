@@ -1,0 +1,64 @@
+.timerControls {
+	display: flex;
+	flex-direction: row;
+	margin-top: 32px;
+}
+
+.startButton,
+.stopButton,
+.proceedButton,
+.madeButton,
+.skipButtonOnPause {
+	width: 145px;
+	height: 55px;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 17px;
+	text-align: center;
+	color: #FFFFFF;
+}
+
+.startButton,
+.proceedButton {
+	background: #A8B64F;
+}
+
+.proceedButton {
+	width: 196px;
+}
+
+.startButton:hover {
+	background: #899441;
+}
+
+.stopButton {
+	border: 2px solid #C4C4C4;
+	color: #C4C4C4;
+}
+
+.stopButton,
+.madeButton,
+.skipButton {
+	margin-left: 25px;
+}
+
+
+
+.skipButton {
+	border: 2px solid #DC3E22;
+	color: #DC3E22;
+	width: 189px;
+}
+
+.stopButtonOnWork {
+	border-color: #DC3E22;
+	color: #DC3E22;
+}
+
+.madeButton,
+.skipButtonOnPause,
+.stopButtonOnWork:hover {
+	background-color: #DC3E22;
+	color: #FFFFFF;
+}

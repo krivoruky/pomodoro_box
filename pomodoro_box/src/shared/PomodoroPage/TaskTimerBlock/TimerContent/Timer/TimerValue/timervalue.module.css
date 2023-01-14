@@ -1,0 +1,19 @@
+.timerValue {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	font-style: normal;
+	font-weight: 200;
+	font-size: 150px;
+	line-height: 179px;
+	margin-top: 70px;
+	color: #333333;
+}
+
+.work {
+	color: #DC3E22;
+}
+
+.break {
+	color: #A8B64F;
+}
